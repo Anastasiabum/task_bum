@@ -44,6 +44,7 @@ awk '/^>chr[0-9]+|^>chrX|^>chrY|^>chrM/ {if (outfile) close(outfile); outfile="r
 ```bash
 rm GRCh38.d1.vd1.fa*
 ```
+# Docker контейнер
 
 # Запуск спипта через Docker контейнер
 ```bash
