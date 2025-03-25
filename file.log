@@ -1,14 +1,14 @@
-2025-03-25 04:22:30,101 - INFO - === START: Program execution ===
-2025-03-25 04:22:30,101 - INFO - STEP 1: Checking input files
-2025-03-25 04:22:30,153 - INFO - STEP 3: Processing SNP data and saving to FP_SNPs_10k_GB38.tsv
-2025-03-25 04:22:30,701 - WARNING - Allele mismatch chr1 145899155: expected T/C, found G
-2025-03-25 04:22:37,620 - WARNING - Allele mismatch chr10 47420743: expected T/C, found G
-2025-03-25 04:22:37,622 - WARNING - Allele mismatch chr10 47320207: expected C/A, found T
-2025-03-25 04:22:37,624 - WARNING - Allele mismatch chr10 47268342: expected T/C, found A
-2025-03-25 04:22:37,627 - WARNING - Allele mismatch chr10 47099482: expected G/A, found T
-2025-03-25 04:22:37,653 - WARNING - Allele mismatch chr10 46031829: expected A/G, found C
-2025-03-25 04:22:38,391 - WARNING - Allele mismatch chr11 54678670: expected C/T, found G
-2025-03-25 04:22:40,368 - WARNING - Allele mismatch chr15 22907410: expected T/C, found G
-2025-03-25 04:22:40,369 - WARNING - Allele mismatch chr15 22832212: expected T/C, found A
-2025-03-25 04:22:41,797 - INFO - File saved: FP_SNPs_10k_GB38.tsv
-2025-03-25 04:22:41,797 - INFO - === Finished. Execution time: 11.70 sec ===
+2025-03-25 13:06:40,361 - INFO - === START: Program execution ===
+2025-03-25 13:06:40,362 - INFO - STEP 1: Checking input files
+2025-03-25 13:06:40,419 - INFO - STEP 3: Processing SNP data and saving to /data/FP_SNPs_10k_GB38.tsv
+2025-03-25 13:06:41,043 - WARNING - Allele mismatch chr1 145899155: expected T/C, found G
+2025-03-25 13:06:49,062 - WARNING - Allele mismatch chr10 47420743: expected T/C, found G
+2025-03-25 13:06:49,064 - WARNING - Allele mismatch chr10 47320207: expected C/A, found T
+2025-03-25 13:06:49,066 - WARNING - Allele mismatch chr10 47268342: expected T/C, found A
+2025-03-25 13:06:49,067 - WARNING - Allele mismatch chr10 47099482: expected G/A, found T
+2025-03-25 13:06:49,076 - WARNING - Allele mismatch chr10 46031829: expected A/G, found C
+2025-03-25 13:06:49,735 - WARNING - Allele mismatch chr11 54678670: expected C/T, found G
+2025-03-25 13:06:51,573 - WARNING - Allele mismatch chr15 22907410: expected T/C, found G
+2025-03-25 13:06:51,575 - WARNING - Allele mismatch chr15 22832212: expected T/C, found A
+2025-03-25 13:06:53,984 - INFO - File saved: /data/FP_SNPs_10k_GB38.tsv
+2025-03-25 13:06:53,984 - INFO - === Finished. Execution time: 13.62 sec ===
