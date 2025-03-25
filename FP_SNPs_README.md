@@ -45,8 +45,7 @@ awk '/^>chr[0-9]+|^>chrX|^>chrY|^>chrM/ {if (outfile) close(outfile); outfile="r
 rm GRCh38.d1.vd1.fa*
 ```
 # Docker контейнер
-
-# Запуск спипта через Docker контейнер
+## Запуск спипта через Docker контейнер
 ```bash
 docker build -t task -f dockerfile .
 docker run --rm -v $(pwd):/data --entrypoint python3 task /data/script.py \
@@ -55,3 +54,28 @@ docker run --rm -v $(pwd):/data --entrypoint python3 task /data/script.py \
   -o /data/FP_SNPs_10k_GB38.tsv \
   -l /data/file.log
 ```
+
+## Установленные программы и версии
+
+**Основные инструменты:**
+- **Samtools** v1.19
+- **BCFtools** v1.21  
+- **VCFtools** v0.1.16
+- **Python** 3.10 (с pandas и pysam)
+
+**Поддерживающие библиотеки:**
+- HTSlib v1.19
+- libdeflate v1.19
+
+## Зависимости для сборки
+
+Образ включает:
+- Компиляторы (gcc, make, cmake)
+- Инструменты разработки (autoconf, automake, libtool)
+- Библиотеки для работы с архивами (zlib, bzip2, xz)
+- Окружение для работы с Python
+
+## Структура каталогов
+
+- /soft - Основной каталог для установки программ
+- /data - Рабочая директория (монтируется с хоста)
